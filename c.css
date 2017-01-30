@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div.first{
+ 
+    font-family: "Helvetica Neue Regular"; 
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Regular';
+    src: url('fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneue-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+div.head{
+    height: 30px;
+    background-color: #085596;
+    color: #3c8bc6;
+}
+
+.flag img{
+    height:18px;  
+    padding-top: -40px;
+    float: left;
+    padding-left: 13px;
+}
+
+.upper li a{
+    height:22px;
+    width: 85px;
+    text-align: center;
+    float: left;
+    text-decoration: none;
+    color: #60b5ed;
+    font-size: 12px;
+    padding-top: 8px;
+}
+.upper li{
+    width: 85px;
+    float: left;
+}
+
+.upper li a:hover{
+    background: #4eabda;
+    color:#dde6ee;
+    text-decoration: none;  
+}
+ul.upper{
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    float:right;  
+}
+
+li{
+   list-style-type: none; 
+}
+
+
+li.flag{
+    height: 22px;
+    width: 140px;
+    color: white; 
+    padding-right: 5px;
+}
+
+li.flag a{
+    width: 140px;
+    border-left: white solid 1px;
+    color: white;
+}
+
+li.ola{
+    width: 180px;
+}
+
+li.ola a{
+    height: 22px;
+    width: 180px;
+}
+div.velo{
+    height:600px;
+    padding-top: 125px;
+    background-image: url(img/img1.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;  
+}
+
+
+div.opacity{
+    height: 350px;
+    width: 350px;
+    margin: 0 auto;
+    background-color: rgba(45,52,41,0.9);
+}
+
+
+div.cadastre{
+    height: 18px;
+    color: #ffffff;
+    font-size: 12px;
+    text-align:center;
+    border-bottom: solid 1px;
+    padding-top: 10px;
+}
+
+
+
+div.facebook{
+    height: 21px;
+    width: 190px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+ img.img{
+    height: 100%;
+    width: 100%; 
+}
+
+
+div.OU{
+    height: 6px;
+    width: 180px;
+    margin: 0 auto;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+.OU img{
+    height: 100%;
+    width: 100%; 
+}
+
+input {
+    color: #ffffff;
+    background-color: black;
+    width: 180px;
+    margin-left: 85px;
+    margin-top: 10px;
+    border: none;
+    padding: 6px;
+    font-size: 9px;
+}
+
+input:hover{
+    background-color: #1b5288;
+}
+
+
+div.button6{
+    height: 10px;
+    width: 220px;
+    font-size: 9px;
+    color: white;
+    text-decoration:none;
+    text-align: center;
+    padding-left: 40px;
+}
+
+input[type="checkbox"]{
+    width: 9px;
+    margin-left: 38px;    
+}
+
+
+input[type="submit"]{
+    height: 26px;
+    width: 110px;
+    background-color: #4eabda;
+    border-radius: 4px;
+    margin-left: 119px; 
+    margin-top: 19px;
+}
+
+p{
+    font-size: 8px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+}
